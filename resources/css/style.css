@@ -2,16 +2,24 @@ div {
 	border: 2px solid blue;
 }
 
+.main {
+	margin: 0px auto;
+	width: 90%;
+}
 
-.main-container,
-footer {
-	padding: 0px 24px;
+.main-container {
+	padding: 32px 24px;
+}
+
+.right {
+	width: 40%;
 }
 
 header,
 nav,
 .main-container,
 .logo,
+.banner-info,
 footer {
 	display: flex;
 }
@@ -19,6 +27,22 @@ footer {
 .logo,
 nav {
 	align-items: center;
+}
+
+.banner-info {
+	flex-direction: column;
+	justify-content: center;
+}
+
+.banner-pic,
+.campus,
+.thesis {
+	width: 60%;
+	padding-right: 24px;
+}
+
+h1.title {
+	text-align: center;
 }
 
 /*Header*/
@@ -41,4 +65,75 @@ nav a {
 }
 
 /*Banner*/
+
+
+.banner-pic img {
+	width: 100%;
+}
+
+a.button {
+	background-color: blue;
+	text-decoration: none;
+	color: white;
+	width: 100%;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+a.button:hover {
+	background-color: lightblue;
+}
+
+/*Campus*/
+
+
+.campus img {
+	width: 100%;
+	padding-bottom: 8px;
+}
+
+.campus h1 {
+	padding: 24px 0px;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.column-info img { 
+	height: auto;
+	width: 35%;
+}
+
+.column-info {
+	padding: 16px 0px;
+}
+
+.details {
+	width: 60%;
+	display: inline-block;
+	position: relative;
+	bottom: 1.5rem;
+}
+
+.details a {
+	text-decoration: none;
+}
+
+.details a:hover {
+	color: lightblue;
+}
+
+.thesis video {
+	width: 100%;
+}
+
+/*Courses*/
+
+.course {
+	flex-wrap: wrap;
+}
 
