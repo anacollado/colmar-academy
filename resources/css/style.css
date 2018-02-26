@@ -1,0 +1,44 @@
+div {
+	border: 2px solid blue;
+}
+
+
+.main-container,
+footer {
+	padding: 0px 24px;
+}
+
+header,
+nav,
+.main-container,
+.logo,
+footer {
+	display: flex;
+}
+
+.logo,
+nav {
+	align-items: center;
+}
+
+/*Header*/
+header {
+	padding: 16px 24px;
+}
+
+.logo {
+	height: 32px;
+	flex: 1;
+}
+
+nav {
+	justify-content: flex-end;
+}
+
+nav a {
+	padding-left: 16px;
+	text-decoration: none;
+}
+
+/*Banner*/
+
